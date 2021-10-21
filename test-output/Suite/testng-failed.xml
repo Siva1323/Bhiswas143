@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="Lab_ParalalTesting_Methods.Alltests">
+        <methods>
+          <include name="Open_Mercury"/>
+          <include name="Add_jobs_Test"/>
+        </methods>
+      </class> <!-- Lab_ParalalTesting_Methods.Alltests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
